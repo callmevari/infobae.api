@@ -18,10 +18,10 @@ app.get('/', (req, res) => {
   res.send('Bienvenidos a la API de Escritores de Portadas!');
 });
 
-app.get('/noticias/1', (req, res) => {
+app.post('/noticias/1', (req, res) => {
   res.json({
     "id": 1,
-    "titulo": "Robaron un banco perry!",
+    "titulo": "Robaron un banco!!! :C",
     "descripcion": "Lorem ipsum y algo más jeje...",
     "imagen": "https://cdn.arstechnica.net/wp-content/uploads/2012/06/mb101310_02-500x344.jpg"
   });
